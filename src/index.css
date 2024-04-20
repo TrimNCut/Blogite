@@ -287,6 +287,33 @@ nav div{
   margin-bottom: 1vw;
 }
 
+.detailsrightconlinkdiv{
+  width: 100%;
+  height: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.2vw;
+}
+
+.detailsrightconlinkdiv2{
+  width: 100%;
+  height: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.2vw;
+}
+
+.detailsrightconlinkdiv h2{
+  font-size: 1.5vw;
+}
+
+.detailsrightconlinkdiv2link{
+  font-size: 1.25vw;
+  color: var(--black);
+}
+
 .detailsrightcondivimg{
   width: 2vw;
   height: 2vw;

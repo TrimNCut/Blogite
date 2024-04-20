@@ -3,6 +3,8 @@ import logo from "../images/logo.png";
 import keyicon from "../images/keyicon.png";
 import eyeopenicon from "../images/eyeopenicon.png";
 import eyeclosedicon from "../images/eyeclosedicon.png";
+import { Link } from "react-router-dom";
+import SignUp from "../pages/signup";
 
 function Login(){
     return(
@@ -26,6 +28,12 @@ function Login(){
                     </div>
                     <div className="detailsrightconbtncon">
                         <button>Login</button>
+                    </div>
+                    <div className="detailsrightconlinkdiv">
+                        <h2>O R</h2>
+                    </div>
+                    <div className="detailsrightconlinkdiv2">
+                        <Link className="detailsrightconlinkdiv2link" to={SignUp}>Login</Link>
                     </div>
                 </div>
             </div>
