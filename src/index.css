@@ -1,0 +1,170 @@
+:root{
+  --black: #292929;
+  --light-grey: #A6A6A6;
+  --white: #ffffff;
+  --highlight-grey: #dedede;
+  --boosted: #FFDE59;
+  --premium: #38B6FF;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+nav{
+  width: 100vw;
+  height: 8vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+  position: fixed;
+  background-color: var(--white);
+}
+
+.logo{
+  width: 15vw;
+  height: 15vw;
+  margin-top: 1.5vw;
+}
+
+.searchbar{
+  width: 24vw;
+  height: 2.6vw;
+  padding-left: 1vw;
+  color: var(--black);
+  outline: none;
+  border-radius: 0.9vw;
+  border: 0.1vw solid var(--black);
+  font-size: 0.9vw;
+  transition: all ease 0.4s;
+}
+
+.searchbar::placeholder{
+  color: var(--black);
+  font-size: 0.9vw;
+}
+
+.searchbar:focus{
+  box-shadow: 0vw 0vw 0vw 0.25vw var(--light-grey);
+}
+
+.searchbtn{
+  width: 3.4vw;
+  height: 2.8vw;
+  margin-left: -6.4vw;
+  border: none;
+  border-radius: 0vw 0.9vw 0.9vw 0vw;
+  background-color: var(--black);
+  cursor: pointer;
+}
+
+.searchbtn img{
+  width: 1.5vw;
+  height: 1.5vw;
+}
+
+.link{
+  font-size: 1.1vw;
+  text-decoration: none;
+  color: var(--black);
+  transition: all ease 0.5s;
+  padding: 1vw;
+  border-radius: 0.7vw;
+  cursor: pointer;
+}
+
+.link:hover{
+  background-color: var(--highlight-grey);
+}
+
+.popular{
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10vw;
+  padding-bottom: 3vw;
+}
+
+.latest{
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10vw;
+  padding-bottom: 3vw;
+}
+
+.title{
+  width: 15vw;
+}
+
+.mainhead{
+  font-size: 3vw;
+  color: var(--black);
+  text-align: center;
+  font-weight: 700;
+}
+
+.underline{
+  width: 15vw;
+  margin-top: 0.2vw;
+  padding: 0.15vw;
+  background-color: var(--black);
+  border-radius: 1.5vw;
+}
+
+.blogcover{
+  width: 80vw;
+  height: 6.5vw;
+  margin-top: 3vw;
+  display: flex;
+  align-items: center;
+}
+
+.blogcoverborder{
+  width: 75vw;
+  border: 0.1vw solid var(--black);
+  display: flex;
+  align-items: center;
+  height: inherit;
+  border-radius: 1vw;
+}
+
+.blogcoversign{
+  width: 2vw;
+  height: 2vw;
+  background-color: var(--black);
+  border-radius: 0.5vw;
+  margin-right: 2vw;
+}
+
+.blogcoverimg{
+  width: 4.5vw;
+  height: 4.5vw;
+  border-radius: 0.7vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+footer{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--black);
+  height: 8vw;
+  color: var(--white);
+  font-size: 1.5vw;
+}
