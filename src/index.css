@@ -31,6 +31,7 @@ nav{
   align-items: center;
   gap: 3vw;
   position: fixed;
+  top: 0;
   background-color: var(--white);
 }
 
@@ -76,18 +77,32 @@ nav{
   height: 1.5vw;
 }
 
+nav div{
+  width: auto;
+  margin: 1vw;
+}
+
+.linkhr{
+  width: 0vw;
+  padding: 0.1vw;
+  background-color: var(--black);
+  opacity: 0;
+  transition: all ease 0.3s;
+} 
+
 .link{
   font-size: 1.1vw;
   text-decoration: none;
   color: var(--black);
   transition: all ease 0.5s;
-  padding: 1vw;
   border-radius: 0.7vw;
   cursor: pointer;
 }
 
-.link:hover{
-  background-color: var(--highlight-grey);
+.link:hover ~ .linkhr{
+  width: 100%;
+  opacity: 1;
+  
 }
 
 .home{
@@ -201,6 +216,46 @@ nav{
   border-radius: 0.7vw;
   margin-left: 1vw;
   margin-right: 1vw;
+}
+
+.login{
+  width: 100vw;
+  height: auto;
+  margin-top: 8vw;
+}
+
+.logincon{
+  width: 37vw;
+  height: 40vw;
+  background-color: var(--highlight-grey);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4vw 0vw 4vw 0vw;
+  display: flex;
+}
+
+.loginleftcon{
+  width: 50%;
+  height: inherit;
+}
+
+.loginrightcon{
+  width: 50%;
+  height: inherit;
+  display: block;
+}
+
+.loginrightconimg{
+  width: inherit;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginrightcon img{
+  width: 5vw;
+  height: 5vw;
 }
 
 footer{

@@ -4,6 +4,7 @@ import Popular from "./pages/popular";
 import Latest from "./pages/latest";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
+import Login from "./pages/login";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="home" element={<Home />}/>
         <Route exact path="popular" element={<Popular />}/>
         <Route exact path="latest" element={<Latest />}/>
+        <Route exact path="login" element={<Login />}/>
       </Routes>
       <Footer/>
     </Router>
