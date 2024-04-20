@@ -90,6 +90,51 @@ nav{
   background-color: var(--highlight-grey);
 }
 
+.home{
+  width: 100vw;
+  padding-top: 8vw;
+  padding-bottom: 3vw;
+}
+
+.hero{
+  background-color: var(--black);
+}
+
+.hero div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero img{
+  width: 15vw;
+  height: 15vw;
+}
+
+.hero div div{
+  padding: 2vw;
+  padding-left: 5vw;
+  display: block;
+}
+
+.hero div div h1{
+  color: var(--white);
+  font-size: 4vw;
+  text-align: center;
+}
+
+.hero div div button{
+  width: 12vw;
+  height: 4.5vw;
+  border-radius: 0.8vw;
+  background-color: var(--black);
+  border: 0.1vw solid var(--white);
+  color: var(--white);
+  font-size: 1vw;
+  cursor: pointer;
+  margin-left: 30%;
+}
+
 .popular{
   width: 80vw;
   margin-left: auto;
@@ -167,4 +212,5 @@ footer{
   height: 8vw;
   color: var(--white);
   font-size: 1.5vw;
+  margin-top: 5vw;
 }
