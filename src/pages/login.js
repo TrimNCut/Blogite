@@ -4,7 +4,6 @@ import keyicon from "../images/keyicon.png";
 import eyeopenicon from "../images/eyeopenicon.png";
 import eyeclosedicon from "../images/eyeclosedicon.png";
 import { Link } from "react-router-dom";
-import SignUp from "../pages/signup";
 
 function Login(){
     return(
@@ -33,7 +32,7 @@ function Login(){
                         <h2>O R</h2>
                     </div>
                     <div className="detailsrightconlinkdiv2">
-                        <Link className="detailsrightconlinkdiv2link" to={SignUp}>Login</Link>
+                        <Link className="detailsrightconlinkdiv2link" to="/signup">SignUp</Link>
                     </div>
                 </div>
             </div>

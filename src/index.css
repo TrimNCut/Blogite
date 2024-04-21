@@ -88,7 +88,7 @@ nav div{
   padding: 0.1vw;
   background-color: var(--black);
   opacity: 0;
-  transition: all ease 0.3s;
+  transition: all ease 0.4s;
 } 
 
 .link{
@@ -287,33 +287,6 @@ nav div{
   margin-bottom: 1vw;
 }
 
-.detailsrightconlinkdiv{
-  width: 100%;
-  height: 3vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 0.2vw;
-}
-
-.detailsrightconlinkdiv2{
-  width: 100%;
-  height: 2vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 0.2vw;
-}
-
-.detailsrightconlinkdiv h2{
-  font-size: 1.5vw;
-}
-
-.detailsrightconlinkdiv2link{
-  font-size: 1.25vw;
-  color: var(--black);
-}
-
 .detailsrightcondivimg{
   width: 2vw;
   height: 2vw;
@@ -334,7 +307,7 @@ nav div{
 }
 
 .detailsrightconinput{
-  width: 20vw;
+  width: 16vw;
   height: 3vw;
   padding-left: 1vw;
   border-radius: 0.5vw;
@@ -342,6 +315,7 @@ nav div{
   outline: none;
   transition: all ease 0.4s;
   font-size: 1vw;
+  transition: all ease 0.4s;
 }
 
 .detailsrightconinput::placeholder{
@@ -351,6 +325,7 @@ nav div{
 
 .detailsrightconinput:focus{
   box-shadow: 0vw 0vw 0vw 0.25vw var(--highlight-grey);
+  width: 20vw;
 }
 
 .detailsrightconbtncon{
@@ -402,6 +377,59 @@ nav div{
 
 .detailsrightconbtncon button:hover{
   background-color: var(--hover-black);
+}
+
+.detailsrightconlinkdiv{
+  width: 100%;
+  height: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.2vw;
+}
+
+.detailsrightconlinkdiv2{
+  width: 100%;
+  height: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.2vw;
+}
+
+.detailsrightconlinkdiv h2{
+  font-size: 1.5vw;
+}
+
+.detailsrightconlinkdiv2link{
+  font-size: 1.25vw;
+  color: var(--black);
+}
+
+.blogdashcon{
+  width: 45vw;
+  height: 35vw;
+  border: none;
+  border-radius: 2vw;
+  box-shadow: 0vw 0vw 2vw 1vw rgba(0, 0, 0, 0.1);
+  margin-top: 10vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blogdashnav{
+  height: 6.5vw;
+  width: 100%;
+  background-color: var(--black);
+  border-radius: 2vw 2vw 0vw 0vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogdashnav img{
+  height: 5vw;
+  width: 5vw;
 }
 
 footer{

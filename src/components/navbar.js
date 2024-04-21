@@ -21,7 +21,7 @@ function Navbar(){
                 <hr className="linkhr"/>
             </div>
             <div>
-                <Link className='link' to="home">My Account</Link>
+                <Link className='link' to="login">My Account</Link>
                 <hr className="linkhr"/>
             </div>
         </nav>

@@ -6,6 +6,7 @@ import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import Login from "./pages/login";
 import SignUp from "./pages/signup";
+import BlogDashboard from "./pages/blogdashboard";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="latest" element={<Latest />}/>
         <Route exact path="login" element={<Login />}/>
         <Route exact path="signup" element={<SignUp />}/>
+        <Route exact path="blogdashboard" element={<BlogDashboard />}/>
       </Routes>
       <Footer/>
     </Router>
